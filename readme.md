@@ -1,3 +1,16 @@
+\/ To Test it \/
+open two terminals
+1 - npm run dev
+2 - node test.js sample.mp4 Campaign_ID [scenario]
+
+Available test scenarios:
+- Success (default / empty): All services succeed
+- Random_Fail: One service will randomly fail
+- Timeout: One service will time out after 60 seconds
+
+
+
+
 # Node.js Express Challenge: Parallel Video Distribution Service
 
 ## Challenge Details
